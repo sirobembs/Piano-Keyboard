@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #F0A500;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.set {
+  position: relative;
+  width: auto;
+  margin: 100px auto;
+}
+
+.btnkey {
+  position: relative;
+  margin-top: -250px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+.a, .A, .r {
+  background-image: url("images/A.png");
+}
+
+.b, .B, .t {
+  background-image: url("images/B.png");
+}
+
+.c, .C, .y {
+  background-image: url("images/C.png");
+}
+
+.d, .D, .u {
+  background-image: url("images/D.png");
+}
+
+.e, .E, .i {
+  background-image: url("images/E.png");
+}
+
+.f, .F, .o {
+  background-image: url("images/F.png");
+}
+
+.g, .G, .p {
+  background-image: url("images/G.png");
+}
+
+
+.board {
+  width: 821px;
+  height: 827px;
+  margin: 100px 0 100px 0;
+}
+
+
+.keyed {
+  height: 116px;
+  width: 35px;
+  background-color: black;
+  border-radius: 6px;
+  margin: -2px;
+}
